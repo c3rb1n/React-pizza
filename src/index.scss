@@ -1,0 +1,20 @@
+@import 'src/common_styles/lib/_normalize';
+@import 'src/common_styles/_variables';
+
+body {
+    background-color: $background-body;
+    margin: 0 0 0 calc(100vw - 100%);
+
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $orange;
+        border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background-color: darken($orange, 10%);
+    }
+}

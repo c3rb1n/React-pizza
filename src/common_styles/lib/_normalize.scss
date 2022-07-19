@@ -1,0 +1,34 @@
+@import 'src/common_styles/_variables';
+
+* {
+    font: {
+        family: 'Nunito', Roboto, system-ui, Tahoma, sans-serif;
+        size: 14px;
+    }
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    color: $black;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+    font-weight: 600;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+}
